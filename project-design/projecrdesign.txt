@@ -1,0 +1,38 @@
+rough idea is clean data is big task with differant view
+1. you can see what datarobt do.
+2. clearning files take csv or 
+
+
+
+Steps to Automate Data Cleaning
+Load the CSV file
+Handle Missing Values
+Remove Duplicates
+Standardize Data
+Convert Data Types
+Handle Outliers
+Save the Cleaned Data
+
+
+steps to data preparation
+
+1. 1st whatever uploading you have to chaeck data is in csv form and limit of size of csv file may 
+  be 5 mb or 5k rows  and not more than 20 columns
+2. than save data in data lake and make copy to work on it 
+3. understand the structure of file 
+   1. if table has no cloumn name 
+     To check if a CSV file has no column names, you can load the first row of the file and inspect its content. If the content of the first row looks like data rather than column names, then you can conclude that the CSV file has no column names.
+ code in notebook 1 
+   2. is there are row name 
+      Handling a CSV file that has row names (i.e., an index column) and potentially no column names requires careful reading and manipulation of the data. Here’s how you can handle such a file using Python's Pandas library.
+
+Steps:
+Read the CSV File: Read the file into a DataFrame, specifying whether the first column should be used as the row index.
+Check for Column Names: Check if the first row contains column names or data.
+Process Accordingly: Adjust the DataFrame based on whether column names are present or not.
+Example Code
+Here is a step-by-step example to handle a CSV file with row names and potentially no column names:
+
+ 2 reshape csv file into prset 5k rows and 20 cloumns
+
+

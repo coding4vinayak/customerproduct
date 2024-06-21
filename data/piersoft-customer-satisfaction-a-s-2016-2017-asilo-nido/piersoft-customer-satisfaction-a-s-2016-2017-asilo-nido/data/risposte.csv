@@ -1,0 +1,13 @@
+column_a,column_b,column_c,column_d,column_e,column_f,column_g,column_h,column_i,column_j,column_k,column_l,column_m,column_n,column_o
+Domande,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+Precedenti esperienze con altri figli,3,,,,,,,,,,,,,
+Direttamente dall_asilo nido,10,,,,,,,,,,,,,
+Sito internet del comune,3,,,,,,,,,,,,,
+Non avevo alternative sul territorio,,0,,,,,,,,,,,,
+Ero interessato al progetto educativo specifico di questo nido,,15,,,,,,,,,,,,
+L_asilo nido è vicino a casa o al mio posto di lavoro,,2,,,,,,,,,,,,
+Insoddisfacente,,,0,0,0,0,0,0,1,0,0,0,0,0
+Accettabile,,,0,0,0,0,1,1,3,0,0,0,0,0
+Soddisfacente ,,,2,1,0,0,1,0,4,1,0,0,1,1
+Buono ,,,3,0,2,5,8,9,3,6,5,2,1,4
+Ottimo,,,12,16,15,12,7,7,5,10,12,15,15,12

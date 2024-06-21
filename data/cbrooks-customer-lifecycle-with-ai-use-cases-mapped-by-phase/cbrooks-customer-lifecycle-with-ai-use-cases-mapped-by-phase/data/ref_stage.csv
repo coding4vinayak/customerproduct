@@ -1,0 +1,10 @@
+stage,phase,stage_description
+1. Awareness,A. Acquisition,"At this super-early stage of the customer lifecycle, your customers are first realizing they’ve got a problem, and are starting to learn more about it, and research options for solving it."
+2. Consideration,A. Acquisition,"By now, our customers will have a decent understanding of their problem, and will have identified several potential SaaS solutions that they’re considering."
+3. Qualification,A. Acquisition,"Your customers will narrow down their options to just a few solutions. They might start free trials, request a demo or start a conversation with your sales team."
+4. Evaluation,B. Engagement,"Your customers are now in the final stages of their decision-making. They’ll be asking your sales team very usage-specific, or company-specific questions about the capabilities of your solution, to assess whether or not your solution will meet their needs and solve their problem."
+5. Purchase,B. Engagement,This is it – the magic moment when they part with their credit card details and officially become paying customers.
+6. Activation,B. Engagement,"Now they’ve paid for your service, your customers are starting to use it. They’ll work through any onboarding processes you have, and (hopefully) start to get value from using your solution."
+7. Expansion,C. Retention,"By now, your customers will be regular users of your SaaS product, and be convinced of the value of your service. They may decide they need additional features or functionality available from higher-price packages, expanding from the initial package or service they signed up for."
+8. Renewal,C. Retention,"Your customers’ initial contracted use period has come to an end, and they decide to continue paying for, and using, your service."
+9. Referral,C. Retention,"Your customers are delighted with your service, and are so impressed with the value you deliver, that they’re recommending your service to colleagues, or others in their network."

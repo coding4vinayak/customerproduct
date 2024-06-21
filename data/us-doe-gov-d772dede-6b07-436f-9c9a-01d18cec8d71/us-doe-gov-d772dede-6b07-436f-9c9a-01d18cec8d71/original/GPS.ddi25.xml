@@ -1,0 +1,3304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was produced automatically by the OpenDataForge
+ Codebook XML Generator v2015.10.19                       
+                                                          
+ For more information on our products or services visit	 
+ http://www.mtna.us.-->
+<ddi:codeBook version="2.5" ID="hYwjTCw730Vq9ycl" codeBookAgency="ex.ample" elementVersion="1.0.0" xmlns:ddi="ddi:codebook:2_5">
+  <ddi:docDscr>
+    <ddi:citation>
+      <ddi:titlStmt>
+        <ddi:titl>GPS.sav</ddi:titl>
+      </ddi:titlStmt>
+      <ddi:prodStmt>
+        <ddi:prodDate date="2016-10-11 10:50:49">2016-10-11 10:50:49</ddi:prodDate>
+        <ddi:software version="1.0.0">SledgeHammer</ddi:software>
+      </ddi:prodStmt>
+    </ddi:citation>
+  </ddi:docDscr>
+  <ddi:stdyDscr>
+    <ddi:citation>
+      <ddi:titlStmt>
+        <ddi:titl>GPS.sav</ddi:titl>
+      </ddi:titlStmt>
+      <ddi:prodStmt/>
+    </ddi:citation>
+  </ddi:stdyDscr>
+  <ddi:fileDscr ID="Vcu8V5LNsHaH2ZLs">
+    <ddi:fileTxt>
+      <ddi:fileName>GPS.sav</ddi:fileName>
+      <ddi:dimensns>
+        <ddi:caseQnty>1341</ddi:caseQnty>
+        <ddi:varQnty>123</ddi:varQnty>
+      </ddi:dimensns>
+      <ddi:fileType>SPSS</ddi:fileType>
+    </ddi:fileTxt>
+  </ddi:fileDscr>
+  <ddi:dataDscr>
+    <ddi:var ID="TY1h1Rdb1gRgf8f2" name="CASE_ID" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Unique respondent identifier</ddi:labl>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ly2Oe9dIfSnmUG5p" name="GPS_NAC_ADOPTER" files="Vcu8V5LNsHaH2ZLs" dcml="2">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Which survey was completed</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">GPS</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">NAC</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">ADOP</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.2</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="L0j2UTF8sOR55wWJ" name="SURVEY_SOURCE" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Which Survey R Completed</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">GPS</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">ADOP</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">ADOP Panel</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">NAC</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">NAC PANEL</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="zOPOuOYFNuejo31V" name="HOME" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">What type of home do you live in?</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Single-family detached house</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Single-family attached house (e.g. duplex, townhouse)</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Apartment\Condo in a house or a building with 2-4 units</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Apartment\Condo in a building with 5 or more units</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">Mobile home</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>90</ddi:catValu>
+        <ddi:labl xml-lang="en">Other</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="LK19UWjQZj8AOEvc" name="STATE" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Which state do you live  in?</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">New Jersey</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">New York (state)</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Arizona</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">California</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>92</ddi:catValu>
+        <ddi:labl xml-lang="en">Another state (please specify):</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="SrVgRSBp5Om36j6i" name="AGE_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">What is your age?-Years</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">18-44</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">45-54</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">55-64</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">65 or older</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="u7esw8Fh1VUaoV6y" name="EDUC_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">What is the highest level of education you have completed?</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Less than High School, or High School \ GED</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Some College (1-4 years, no degree), or Associate's degree (including occupational or academic degrees)</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Bachelor's degree (BA, BS, AB, etc)</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Master's Degree (MA, MS, MENG, MSW, etc), or Professional Degree (MD, DDC, JD, etc), or Doctoral Degree (PhD, EdD, etc)</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="vdaEZcTJMMacyQ38" name="F1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I have personally seen solar panels installed on someone’s home.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="dWfgOieaH5eHCKJY" name="F2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I have thought about getting solar panels for my home.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="TcDuOiYqvlQHSrnY" name="TRIG1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">A friend or neighbor has recently installed solar panels.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="D3DLubDC38xyTiob" name="TRIG3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">In the last six months, I have seen or heard advertisements from companies that install solar panels.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="UpLi7QuxQ9UEleks" name="TRIG2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">My family has recently received advertising or a call from a company that installs solar panels.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="iRX7gIb7oCszK7wq" name="TRIG4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">In the last six months, I have seen political advertisements about solar policies.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="v7zp2Dah4hONcQTr" name="N1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I know more than one person with solar panels on their home.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="QW75YdFCJiY9LXms" name="N2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Several people in my neighborhood have installed solar panels.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="MTX3k6rHIYYRL88T" name="N3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I have talked about solar panels with someone who has already installed them on their home.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="TC5nKRhZp0j293n8" name="F3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I’ve heard that it’s possible to lease solar panels instead of buying them.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="dg3LSsIWcwe9qGLP" name="F4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I have already spoken with a  solar company about possibly installing solar panels on my home.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ErcZJH1GifA8kmre" name="CIJM1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Before buying a new brand, I usually ask someone who has experience with the brand for advice.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="h0rvvuTb7ZXlOGJT" name="CIJM2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Before I buy a new product or service, I often ask acquaintances about their experiences with that product or service.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="PtZOq4tBLAPtDZP5" name="CIJM3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">When considering a new product [OR] service, I usually trust the opinions of friends who have used the product [OR] service.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Dxv1sGTA0ysce9fV" name="CNS1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I continuously look for new products and brands.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="CF6zOVoPujk01A5L" name="CNS2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I continuously look for new experiences from new products.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ivfadUGkYhffLjfp" name="CNS4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I like to visit places where I’m exposed to information about new products and brands.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Not much Like Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Quite a lotLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">JustLike Me</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="SXL5gwLY7wlwytYd" name="VB1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Protecting the environment, preserving nature</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="F55b3xckU9rK83c4" name="VB2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Respecting the earth, harmony with other species</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="zwcLhD7NlXCebwle" name="VB3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Unity with nature, fitting into nature</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="PBUBq1HaO0jAaZfQ" name="VA1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">A world at peace, free of war and conflict</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Yb1wGcxUkrtw9sjE" name="VA2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Social justice, correcting injustice, care for the weak</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="H0KgC0rw993VmDNn" name="VA3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Equality, equal opportunity for all</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="kPnMY42vc5JESfUd" name="VT1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Honoring parents and elders, showing respect</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ltE8ggCpkRXFzNrT" name="VT2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Family security, safety for loved ones</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="aoT8qxtVeeqStlj8" name="VT3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Self-discipline, self-restraint, resistance to temptation</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="YuN5uhJ4DwG3IST6" name="VE1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Authority, the right to lead or command</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Ie7RJ40ikoWKGg2z" name="VE2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Influential, having an impact on people and events</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="eAWJChBRDPUKoHtq" name="VE4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Wealth, material possessions, money</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="WV6dbn91GhS9fBSU" name="VO1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">A varied life, filled with challenge, novelty, and change</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Eo6pCcsUNDOGYQkZ" name="VO2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">An exciting life, stimulating experiences</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="dtCaIKoPAC6NHd4f" name="VO3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Curious, interested in everything, exploring</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">OPPOSED TO MY  VALUES</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyImportant</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Xs1lDK4ecul4h5C6" name="PN1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I feel a personal obligation to do my part to move the country to a renewable energy future.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="j4ftPfF1cwuM0LFu" name="PN2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I feel a personal obligation to do my part to prevent climate change.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="qugLCRukBMcSJNoc" name="PN3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I feel guilty when I waste energy.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="soEdhDhg6XsxRsRH" name="E2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Climate change is a serious problem for society.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="aGb3uVMOrm4h0ZZv" name="BTE7" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Using solar could protect my family from electricity blackouts.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ez2Ynl20CO8ds1d6" name="BB1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If more households get solar panels, environmental quality will improve.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="uQKHveldaUK0d8mm" name="BB2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Solar panels help slow down climate change.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="H6HUfT1beXxzCJsS" name="BB3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Having solar panels would be a good way to reduce my environmental impact.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="V5z6pLYb2QanSRft" name="BTE8" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Using solar will help protect my family from rising electricity prices in the future.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="WEJxaeThPIjrJleb" name="BE13" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Installing solar provides a great return on a family’s investment.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="kxORfymELUQOHLNE" name="BE10" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Using solar would save me money.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="DDd6o3B6d3sIV16G" name="Co3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Having solar panels on my home would help meet my family’s needs.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ZSlv9pwaB5g8qfhe" name="BE11" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Solar panels would increase my property value.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="uccZbOxcqWpkdETv" name="M3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Installing solar panels could damage my home.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="relugXlyDcWHHUF5" name="BO15" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I would worry about having solar panels because it would be an unfamiliar experience.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="eExmOlRaqE9Rgs3s" name="BTE9" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Installing solar panels is a risky thing for a household to do.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="uzm8FFbDrYNHHSLi" name="PBC7" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I may not be in my home long enough to get the benefits of investing in solar.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="gxuIePm5V2xXoysy" name="PBC9" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">The process of getting solar installed is a hassle.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ZmlA5l82VyraPhde" name="M2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Maintaining solar panels is expensive.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="CJNPkgT8590kX8jj" name="PBC3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Solar panels are still very expensive, even with government incentives.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="yHRDHcExl3T1qoPo" name="M4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">The prices of solar power keep going down, so it is wise to wait before deciding whether to install it.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="zFEwohFHBI5xT7Ai" name="PBC5" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I can’t afford solar on my family budget.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="EDSsdJNg7ORxYSnu" name="M1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Solar panel technology will only get better, so it doesn't make sense to get them now.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="GTFdkqL64PmlsS5S" name="Tru5" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If a solar company tells me how much I would save on my electric bills by installing solar, I would want a second opinion.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Cj8JFjmKvWUMIwRz" name="Tr1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Before contacting a solar company, I would like to see solar panels up close on someone else’s house.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="aeuBv98VlW2WtFMu" name="Tr2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Before considering solar panels, I would want to talk to someone who has solar panels on their home.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="DY0k5SGABSnWyzUX" name="Tr3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I would be more interested in solar if there were some way for me to try it out before installing it.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="SCveTDxOhH2wFzis" name="Dep1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Solar panels nowadays have become very dependable.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="PY7Pz9xDSSCQ6w1k" name="Dep2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I question whether solar panels actually work as well as promised.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="Z9p0865u66keaBYF" name="Dep3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I question whether solar panels will last long enough to pay for themselves.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="jEZjHOHepmX3EVTD" name="M6" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">It's too cloudy where I live for solar panels to be effective.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="drxBh0JSsg7WvZWh" name="Suit1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">At my home, there's no place to put solar panels that would get enough sunlight.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="s0QzQcQoVrrn2DOe" name="Suit2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">It's not sunny enough in my area for solar panels to work well.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="pXCXW4dGMnbudt7Y" name="O3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I would feel embarrassed to have solar panels on my roof where others can see them.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="B0mKpuUDYHeM8eiX" name="SN1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">People who are important to me would be in favor of installing solar panels.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="MtKrNCLI95Yv3EBQ" name="SN4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">My family members would be opposed to getting solar panels.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="u4kHgnbxFNtB8Sbs" name="SN5" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Most people who are important to me would support me if I decided to go solar.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="MFygtiZ85z4kg4kr" name="DV1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If my neighbors installed solar I would be interested in learning about the costs and savings of their system.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="sWfzCBUW7olBxR67" name="DV2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If a friend installed solar I would be interested in learning about the costs and savings of their system.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="vRrVFTMyW5j8Z82v" name="DV3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If a company that sells or installs solar panels were talking to people in my neighborhood, I would be interested in talking with a representative.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="PHOFgiUh5pfAcT8o" name="DV4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">If I could get a no-cost assessment of what solar panels could do for my home, I would do it.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="wTCEEWYHCzNArO7M" name="DV7" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">I plan to contact a solar installation company within the next 6 months to discuss installing solar at my home.</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyDisagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Disagree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Neutral</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Agree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">StronglyAgree</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ntOr3snxujj6H1Tr" name="INT_Q1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested - How solar panel systems work.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="M6RJ6nqNizJbcVWK" name="INT_Q2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested - How to find reputable solar installers in my area.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="od2k4oJevQSwGA9S" name="INT_Q3" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested  -How common solar is in my community.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="s7DdBH2OdKr2ZALn" name="INT_Q4" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested  -What the options are for leasing solar.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="nrHj6CVBvT7bP5MH" name="INT_Q5" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested  -How solar can save me money.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="zuovzTfBnmXbt2hC" name="INT_Q6" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested  -The environmental benefits of solar.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="KDzt9xhGOIB0s9u4" name="INT_Q7" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How interested  -How well solar would work on my house.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at allInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">FairlyInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">VeryInterested</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="TzMdxHSPJ0conpBO" name="TR_GOV" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Government agency website (e.g., Department of Energy)</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="HOuIBfGgKWo4clse" name="TR_COMP" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Companies that provide or install solar panels</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="aKl5A9j8IhA03kvR" name="TR_TRADE" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Solar industry trade organizations</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="bxxhzQvI3SHIcq26" name="TR_UTIL" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Electric and gas utilities</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="iIQ9Su7MBHTauFei" name="TR_ONLINE" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Online reviews from other people who have installed solar</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="nQ213JQ6dL00Bu9H" name="TR_FRFAM" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Friends or family</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="UsYzHwf5CVgPCkJH" name="TR_NEIGHB" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Neighbors</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="MmYLN9Xy6rnExSyi" name="TR_ENVORG" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -Environmental organizations</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="I159JJw2jH6MW7V1" name="TR_UNIV" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Trust -University researchers</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Do Not Trust At All</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Trusta Little</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustSomewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Trust Quitea Bit</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">TrustCompletely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="FxVxsQEc36FkbYCG" name="INV_NEIGHFR" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Talk to a neighbor or friend who has solar.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="AWCKkLotvo690wFn" name="INV_PARTY" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Attend an informational solar “party” at a neighbor’s house to learn more.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="ztfwGXxZhZJfUAxP" name="INV_ONLINECUST" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Read online customer testimonials from people who have installed solar.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="kSw7WnNxMo1TTAVm" name="INV_ONLINEVIDEO" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Watch online video testimonials from people who have installed solar.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="AHC2ljOCwH6xm4oa" name="INV_REVIEWS" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Search for online reviews of solar installers on a website like Yelp or Angie’s List.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="LjcKUyjwFqjq8qTb" name="INV_FACEBK" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Visit a Facebook page where solar users answer questions for prospective customers.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="pmuiR01iJiWKweRT" name="INV_GOVTWEB" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Visit a government-sponsored website where solar users answer questions for prospective customers.</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Not at all Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">SlightlyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">SomewhatLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Likely</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">ExtremelyLikely</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="R9sYZA0nymJKQ0cJ" name="WINTER_NOPV_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">How much do you spend (or if R has panels now, did you spend prior to getting panels) on electricity in a typical winter month?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">less than $25 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">$25 - 49 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">$50 - 74 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">$75 - 99 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">$100 - 149 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>6</ddi:catValu>
+        <ddi:labl xml-lang="en">$150 - 199 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>7</ddi:catValu>
+        <ddi:labl xml-lang="en">$200 - 249 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>8</ddi:catValu>
+        <ddi:labl xml-lang="en">$250 - 299 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>9</ddi:catValu>
+        <ddi:labl xml-lang="en">$300 - 349 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>10</ddi:catValu>
+        <ddi:labl xml-lang="en">$350 - 399 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>11</ddi:catValu>
+        <ddi:labl xml-lang="en">over $400 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">I don't know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="VhxKycue602t5JlP" name="SUMMER_NOPV_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">How much do you spend (or if R has panels now, did you spend prior to getting panels) on electricity in a typical summer month?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">less than $25 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">$25 - 49 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">$50 - 74 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">$75 - 99 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">$100 - 149 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>6</ddi:catValu>
+        <ddi:labl xml-lang="en">$150 - 199 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>7</ddi:catValu>
+        <ddi:labl xml-lang="en">$200 - 249 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>8</ddi:catValu>
+        <ddi:labl xml-lang="en">$250 - 299 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>9</ddi:catValu>
+        <ddi:labl xml-lang="en">$300 - 349 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>10</ddi:catValu>
+        <ddi:labl xml-lang="en">$350 - 399 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>11</ddi:catValu>
+        <ddi:labl xml-lang="en">over $400 per month</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">I don't know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="N9rZbJXeukZ7nSmh" name="BILLS" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">In the past twelve months, would you say your electric bills have decreased, increased, or stayed about the same compared to past years?</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Decreased a lot</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Decreased somewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Stayed about the same</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Increased somewhat</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">Increased a lot</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="FD6eZp6NveBdYrOz" name="POWER" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Over the past twelve months, how many times has there been a complete loss of electric power at your home for more than five minutes?</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Never</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">1 time</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">2 times</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">3 times</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">4 or more times</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="AydHn32g5KT1mZBw" name="STANCE" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">When it comes to politics, do you usually think of yourself as liberal, moderate, conservative, or something else?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="90"/>
+        <ddi:item VALUE="97"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Moderate \ Middle of the Road</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>90</ddi:catValu>
+        <ddi:labl xml-lang="en">Other</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>97</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know \ Not Political</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="cYbpkL1zZ1VaP2pg" name="SOCIAL" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How liberal or conservative are you on social issues?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="96"/>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Moderate \ Middle of the Road</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>96</ddi:catValu>
+        <ddi:labl xml-lang="en">Can't Pick One Label</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="OIdFvfgQOdAwsnFS" name="ECON" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How liberal or conservative are you on economic issues?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="96"/>
+        <ddi:item VALUE="98"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Liberal</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Moderate \ Middle of the Road</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">Very Conservative</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>96</ddi:catValu>
+        <ddi:labl xml-lang="en">Can't Pick One Label</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>98</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't Know</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="busn206V9kG3VWSJ" name="CITYYRS_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">How long have you lived in your current city?-Years</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">0-4</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">5-9</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">10-14</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">15-19</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">20-29</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>6</ddi:catValu>
+        <ddi:labl xml-lang="en">30-39</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>7</ddi:catValu>
+        <ddi:labl xml-lang="en">40-49</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>8</ddi:catValu>
+        <ddi:labl xml-lang="en">50 or more</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="JtpcCoPcyzOgKI2g" name="HMYRS_1_TEXT" files="Vcu8V5LNsHaH2ZLs" dcml="2">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Approximately how many more years do you expect to live in your current home?-Years:</ddi:labl>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.2</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="zg6RAIwuoAgg9HrC" name="SQFT_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">Home Living Space (Square Feet)</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">1500 or less</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">1501-2000</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">2001-2500</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">more than 2500</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="PcxqvXsSRdqxFc3B" name="GENDER" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">What is your gender?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="95"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">Male</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Female</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>95</ddi:catValu>
+        <ddi:labl xml-lang="en">Prefer not to answer</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="BcpNKX63k3C34tTI" name="PEOPLE_TOT_3PLUS" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">R indicated that a total of 3 or more adults and children live in house</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">False</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">True</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="M9H9eU3MLVwfuotu" name="HAVE_KIDS" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Whether R reports any children under 18 living in the house</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="bOaP9UbJ6SKPY2xR" name="EMPLOY_1" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Employed full time</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes, Employed full-time</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="HsZZg48Frm45tH1a" name="EMPLOY_2" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">Employed part time</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes, Employed part-time</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="n5WPXbCpCop793Pc" name="EMPLOY_5" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">A homemaker</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes, Homemaker</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="NkVQ93kYe9vY0efB" name="RETIRED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">R reports employment status as retired (may have also selected other status options)</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>0</ddi:catValu>
+        <ddi:labl xml-lang="en">No</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Yes</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="vgdn2eE67Ael9d18" name="FINANCIAL" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="8"/>
+      <ddi:labl xml-lang="en">How would you describe your current financial situation? …</ddi:labl>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Live comfortably</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">Meet your basic expenses with a little left over for extras</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">Just meet your basic living expenses</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">Don't have enough to meet basic expenses</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F8.0</ddi:varFormat>
+    </ddi:var>
+    <ddi:var ID="OD1G97qzGawnK7tK" name="INCOME_BINNED" files="Vcu8V5LNsHaH2ZLs" dcml="0">
+      <ddi:location width="1"/>
+      <ddi:labl xml-lang="en">What is your annual household income before taxes?</ddi:labl>
+      <ddi:invalrng>
+        <ddi:item VALUE="95"/>
+      </ddi:invalrng>
+      <ddi:catgry>
+        <ddi:catValu>1</ddi:catValu>
+        <ddi:labl xml-lang="en">Less than $50,000</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>2</ddi:catValu>
+        <ddi:labl xml-lang="en">$50,000 to $74,999</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>3</ddi:catValu>
+        <ddi:labl xml-lang="en">$75,000 to $99,999</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>4</ddi:catValu>
+        <ddi:labl xml-lang="en">$100,000 to $149,999</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>5</ddi:catValu>
+        <ddi:labl xml-lang="en">$150,000 or more</ddi:labl>
+      </ddi:catgry>
+      <ddi:catgry missing="Y">
+        <ddi:catValu>95</ddi:catValu>
+        <ddi:labl xml-lang="en">Prefer not to answer</ddi:labl>
+      </ddi:catgry>
+      <ddi:varFormat type="numeric" schema="other" formatname="F">F1.0</ddi:varFormat>
+    </ddi:var>
+  </ddi:dataDscr>
+</ddi:codeBook>

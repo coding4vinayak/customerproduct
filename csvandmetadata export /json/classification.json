@@ -1,0 +1,36 @@
+{
+    "Integer Data": [],
+    "Float Data": [
+        "Available Extra Rooms in Hospital",
+        "Visitors with Patient",
+        "Admission_Deposit"
+    ],
+    "Numeric Data": [
+        "Available Extra Rooms in Hospital",
+        "Visitors with Patient",
+        "Admission_Deposit"
+    ],
+    "Categorical Data": [
+        "Department",
+        "Ward_Type",
+        "Bed Grade",
+        "Type of Admission",
+        "Severity of Illness",
+        "Age",
+        "Stay"
+    ],
+    "Binary Data": [],
+    "Email Data": [],
+    "Temporal Data": [],
+    "Spatial Data": [],
+    "ID Data": [
+        "case_id",
+        "Hospital_code",
+        "Hospital_type_code",
+        "City_Code_Hospital",
+        "Hospital_region_code",
+        "Ward_Facility_Code",
+        "patientid",
+        "City_Code_Patient"
+    ]
+}

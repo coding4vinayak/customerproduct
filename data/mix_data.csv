@@ -1,0 +1,21 @@
+"category_1","latitude","longitude","customer_id","amount","email_data","datetime_data","url_data"
+"category_2",40.7128,-74.0059,12345,99.99,"another_email@example.com","2023-11-19 10:23:55","http://www.example.org"
+"category_3",28.6139,77.2088,54321,1000,NULL,"2024-01-01T12:34:56Z","https://www.quora.com/What-is-an-invalid-URL-format"
+"Yes",NULL,NULL,NULL,NULL,"support@example.com",NULL,NULL
+1,NULL,NULL,67890,3.14,NULL,NULL,NULL
+"Product A",51.5051,-0.09,23456,78.50,"customer.service@company.com","2024-04-15 13:07:24","https://www.zalando.co.uk/"
+"Blue",NULL,NULL,NULL,NULL,"data_scientist@research.org",NULL,NULL
+"Pending",37.7749,-122.4194,89012,42.00,NULL,"2024-02-29 09:42:11",NULL
+"Order Confirmation",48.8566,2.3522,34567,125.99,"shipped@store.com","2024-06-18 10:10:33","https://www.dhl.com/us-en/home/tracking.html"
+"Out of Stock",NULL,NULL,NULL,NULL,"inventory@supplier.com",NULL,NULL
+"True",NULL,NULL,NULL,NULL,"admin@hospital.gov",NULL,NULL
+"False",-33.8688,151.2073,78901,0.00,"","2024-05-23 17:25:42",NULL
+"High",25.7619,-80.1882,56789,299.99,"sales@electronics.com","2024-03-12 21:14:08",NULL
+"Medium",41.8818,-87.6231,90123,149.95,"marketing@fashion.co.uk","2024-06-10 08:32:55",NULL
+"Low",65.0117,-147.8675,12345,4.99,"","2024-01-31 05:48:12",NULL
+"Red",NULL,NULL,NULL,NULL,"art.gallery@museum.fr",NULL,NULL
+"Green",35.6895,139.6917,67890,19.99,"plants@nursery.com","2024-05-09 14:51:38",NULL
+"Blue",-34.9287,138.6000,34567,88.88,"clothing.store@retailer.com.au","2024-04-02 02:17:51",NULL
+"Available",40.4167,-74.0060,89012,34.21,"","2024-02-16 00:33:19",NULL
+"In Transit",37.5690,-122.3900,12345,99.50,"delivery@service.com","2024-06-17 15:55:27",NULL
+"Delivered",52.3702,4.8951,56789,24.50,"","2024-06-14 06:2
