@@ -12,7 +12,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 11,22,g,9.0,Y,2.0,radiotherapy,S,B,nana.0,31397,7.0,Urgent,Extreme,2.0,51-60,5797.0,21-30
 12,26,b,2.0,Y,4.0,radiotherapy,R,D,1.0,31397,7.0,Urgent,Extreme,2.0,51-60,5993.0,11-20
 13,16,c,3.0,Z,2.0,radiotherapy,R,A,3.0,31397,7.0,Emergency,Extreme,2.0,51-60,5141.0,0-10
-14,9,d,5.0,Y,3.0,radiotherapy,S,F,3.0,31397,7.0,Urgent,Extreme,2.0,51-60,8477.0,21-30
+14,9,d,5.0,,3.0,radiotherapy,S,F,3.0,31397,7.0,Urgent,Extreme,2.0,51-60,8477.0,21-30
 15,6,a,6.0,X,4.0,gynecology,Q,F,3.0,63418,8.0,Emergency,Extreme,2.0,71-80,2685.0,0-10
 16,6,a,6.0,X,3.0,gynecology,Q,F,3.0,63418,8.0,Emergency,Extreme,2.0,71-80,9398.0,0-10
 17,23,a,6.0,X,4.0,radiotherapy,Q,F,3.0,63418,8.0,Urgent,Extreme,4.0,71-80,2933.0,0-10
@@ -31,7 +31,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 30,27,a,7.0,Y,4.0,gynecology,R,C,2.0,8088,2.0,Trauma,Moderate,2.0,31-40,5757.0,21-30
 31,27,a,7.0,Y,3.0,gynecology,R,C,3.0,8088,2.0,Urgent,Moderate,4.0,31-40,4515.0,51-60
 32,19,a,7.0,Y,2.0,gynecology,R,C,2.0,28843,8.0,Emergency,Moderate,2.0,41-50,4201.0,0-10
-33,26,b,2.0,Y,2.0,gynecology,R,D,1.0,28843,8.0,Trauma,Moderate,2.0,41-50,3822.0,31-40
+33,26,b,2.0,Y,2.0,gynecology,,D,1.0,28843,8.0,Trauma,Moderate,2.0,41-50,3822.0,31-40
 34,5,a,1.0,X,4.0,gynecology,R,E,2.0,109338,5.0,Emergency,Moderate,3.0,31-40,4274.0,11-20
 35,5,a,1.0,X,3.0,gynecology,R,E,2.0,109338,5.0,Emergency,Moderate,3.0,31-40,5587.0,11-20
 36,10,e,1.0,X,3.0,gynecology,Q,E,2.0,109338,5.0,Emergency,Moderate,2.0,31-40,3088.0,0-10
@@ -62,7 +62,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 61,31,c,3.0,Z,4.0,gynecology,R,A,2.0,83512,6.0,Emergency,Moderate,2.0,81-90,3475.0,0-10
 62,31,c,3.0,Z,2.0,gynecology,S,A,3.0,83512,6.0,Emergency,Moderate,2.0,81-90,5429.0,11-20
 63,31,c,3.0,Z,2.0,gynecology,R,A,3.0,83512,6.0,Emergency,Moderate,4.0,81-90,4182.0,51-60
-64,31,c,3.0,Z,3.0,gynecology,R,A,2.0,83512,6.0,Emergency,Moderate,2.0,81-90,5057.0,21-30
+64,31,c,3.0,Z,3.0,gynecology,R,A,,83512,6.0,Emergency,Moderate,2.0,81-90,5057.0,21-30
 65,14,a,1.0,X,2.0,gynecology,R,E,4.0,83512,6.0,Emergency,Moderate,2.0,81-90,5792.0,21-30
 66,24,a,1.0,X,2.0,gynecology,R,E,4.0,83512,6.0,Emergency,Moderate,2.0,81-90,5516.0,11-20
 67,17,e,1.0,X,2.0,gynecology,R,E,4.0,83512,6.0,Emergency,Moderate,2.0,81-90,5304.0,0-10
@@ -74,7 +74,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 73,13,a,5.0,Z,4.0,gynecology,R,F,4.0,83512,6.0,Emergency,Moderate,3.0,81-90,5675.0,0-10
 74,19,a,7.0,Y,3.0,gynecology,Q,C,2.0,64869,3.0,Emergency,Moderate,2.0,61-70,4311.0,11-20
 75,12,a,9.0,Y,2.0,gynecology,S,B,2.0,64869,3.0,Trauma,Moderate,2.0,61-70,5084.0,11-20
-76,32,f,9.0,Y,2.0,gynecology,S,F,2.0,64869,3.0,Trauma,Moderate,2.0,61-70,5508.0,21-30
+76,32,f,9.0,Y,2.0,gynecology,S,,2.0,64869,3.0,Trauma,Moderate,2.0,61-70,5508.0,21-30
 77,14,a,1.0,X,2.0,anesthesia,S,E,4.0,64869,3.0,Trauma,Moderate,4.0,61-70,4204.0,71-80
 78,24,a,1.0,X,2.0,anesthesia,R,E,4.0,64869,3.0,Trauma,Moderate,4.0,61-70,6694.0,41-50
 79,24,a,1.0,X,2.0,anesthesia,R,E,4.0,64869,3.0,Trauma,Moderate,4.0,61-70,6362.0,41-50
@@ -292,7 +292,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 291,12,a,9.0,Y,4.0,gynecology,R,B,2.0,27075,15.0,Emergency,Extreme,2.0,21-30,4819.0,31-40
 292,19,a,7.0,Y,4.0,gynecology,Q,C,3.0,27075,15.0,Emergency,Extreme,2.0,21-30,5001.0,41-50
 293,23,a,6.0,X,4.0,gynecology,Q,F,2.0,27075,15.0,Trauma,Extreme,2.0,21-30,4710.0,41-50
-294,6,a,6.0,X,4.0,gynecology,Q,F,2.0,27075,15.0,Trauma,Extreme,2.0,21-30,4420.0,31-40
+294,6,a,6.0,X,4.0,gynecology,Q,F,,27075,15.0,Trauma,Extreme,2.0,21-30,4420.0,31-40
 295,5,a,1.0,X,4.0,gynecology,Q,E,1.0,27075,15.0,Urgent,Extreme,2.0,21-30,3844.0,11-20
 296,14,a,1.0,X,4.0,gynecology,Q,E,1.0,27075,15.0,Urgent,Extreme,2.0,21-30,4922.0,21-30
 297,26,b,2.0,Y,4.0,gynecology,Q,D,2.0,100252,28.0,Emergency,Extreme,2.0,31-40,4473.0,41-50
@@ -1070,7 +1070,7 @@ case_id,Hospital_code,Hospital_type_code,City_Code_Hospital,Hospital_region_code
 1069,21,c,3.0,Z,2.0,gynecology,Q,A,4.0,62491,8.0,Trauma,Extreme,2.0,61-70,5519.0,11-20
 1070,32,f,9.0,Y,2.0,gynecology,S,B,2.0,62491,8.0,Trauma,Extreme,2.0,61-70,5591.0,31-40
 1071,9,d,5.0,Z,2.0,gynecology,Q,F,2.0,62491,8.0,Trauma,Extreme,2.0,61-70,4867.0,21-30
-1072,6,a,6.0,X,2.0,gynecology,Q,F,2.0,62491,8.0,Trauma,Extreme,4.0,61-70,5395.0,21-30
+1072,6,a,6.0,X,2.0,gynecology,Q,F,,62491,8.0,Trauma,Extreme,4.0,61-70,5395.0,21-30
 1073,19,a,7.0,Y,4.0,gynecology,Q,C,2.0,62491,8.0,Emergency,Extreme,4.0,61-70,4674.0,21-30
 1074,19,a,7.0,Y,3.0,radiotherapy,S,C,1.0,62491,8.0,Emergency,Extreme,6.0,61-70,3236.0,51-60
 1075,9,d,5.0,Z,4.0,gynecology,Q,F,2.0,17441,5.0,Emergency,Extreme,4.0,31-40,4848.0,11-20

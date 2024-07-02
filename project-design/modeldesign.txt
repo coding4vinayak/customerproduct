@@ -1,0 +1,118 @@
+Modeling algorithms
+DataRobot supports a comprehensive library of pre- and post-processing (modeling) steps, which combine to make up the model blueprint. Which are run or available in the model repository is dependent on the dataset. The comprehensive combination of pre- and post-processing steps allows DataRobot to confidently create a Leaderboard of your best modeling options. Some examples of the modeling flexibility include logistic regression with and without PCA as a pre-processor or random forests with and without a greedy search for interaction terms.
+
+The implication of this is that for every model in the list below, DataRobot likely runs two-to-five times, each with a different pre-processing and/or variable selection. The following sections list the relevant algorithms:
+
+Pre-processing
+Linear or additive models
+Tree-based models
+Deep learning and foundational models
+Time series-specific models
+Unsupervised models
+Other model types
+Pre-processing tasks¶
+Categorical¶
+Buhlman credibility estimates for high cardinality features
+Categorical embedding
+Category count
+One-hot encoding
+Ordinal encoding of categorical variables
+Univariate credibility estimates with L2
+Efficient, sparse one-hot encoding for extremely high cardinality categorical variables
+Numerical¶
+Binning of numerical variables
+Constant splines
+Missing values imputed
+Numeric data cleansing
+Partial Principal Components Analysis
+Truncated Singular Values Decomposition
+Normalizer
+Geospatial¶
+Geospatial Location Converter
+Spatial Neighborhood Featurizer
+Images¶
+Greyscale Downscaled Image Featurizer
+No Post Processing
+OpenCV detect largest rectangle
+OpenCV image featurizer
+Pre-trained multi-level global average pooling image featurizer
+Text models¶
+Character / word n-grams
+Pretrained byte-pair encoders (best of both words for char-grams and n-grams)
+Stopword removal
+TF-IDF scaling (optional sublinear scaling and binormal separation scaling)
+Hashing vectorizers for big data
+Cosine similarity between pairs of text columns (on datasets with 2+ text columns)
+Support for all languages, including English, Japanese, Chinese, Korean, French, Spanish, Chinese, Portuguese, Arabic, Ukrainian, Klingon, Elvish, Esperanto, etc.
+Unsupervised Fasttext models
+Linear n-gram models (character/word n-grams + TF-IDF + penalized linear/logistic regression)
+SVD n-gram models (n-grams + TF-IDF + SVD)
+Naive Bayes weighted SVM
+TinyBERT / Roberta/ MiniLM embedding models
+Text CNNs
+Generalized Linear Models¶
+NA imputation (methods for missing at random and missing not at random), standardization, ridit transform
+Search for best transformations
+Efficient, sparse one-hot encoding for extremely high cardinality categorical variables
+Linear or additive models¶
+Generalized Linear Models¶
+Penalty: L1 (Lasso), L2 (Ridge), ElasticNet, None (Logistic Regression)
+Distributions: Binomial, Gaussian, Poisson, Tweedie, Gamma, Huber
+Special Cases: 2-stage model (Binomial + Gaussian) for zero-inflated regression
+Support Vector Machines¶
+Penalty: L1 (Lasso), L2 (Ridge), ElasticNet, None
+Kernel: Linear, Nyström RFB, RBF
+liblinear and libsvm
+Generalized Additive Models¶
+GAM
+GA2M
+Tree-based models¶
+Decision Tree (or CART)
+Random Forest
+ExtraTrees (or Extremely Randomized Forests)
+Gradient Boosted Trees (or GBM— Binomial, Gaussian, Poisson, Tweedie, Gamma, Huber)
+Extreme Gradient Boosted Trees (or XGBoost— Binomial, Gaussian, Poisson)
+LightGBM
+AdaBoost
+RuleFit
+Deep learning and foundational models¶
+Keras MLPs with residual connections, adaptive learning rates and adaptive batch sizes
+Keras self-normalizing MLPs with residual connections
+Keras neural architecture search MLPs using hyperband
+DeepCTR
+Neural Factorization Machines
+AutoInt
+Cross Networks
+Pretrained CNNs for images using foundational models (especially EfficientNet)
+Manually pruned and optimized for faster inference
+Pretrained + fine-tuned CNNs for images
+Image augmentation
+Pretrained TinyBERT models for text
+Keras Text CNNs
+Fastext models for text
+Time series-specific models¶
+LSTMs
+DeepAR models
+AutoArima
+ETS, aka exponential smoothing
+TBATS
+Prophet
+Unsupervised models¶
+Anomaly detection models¶
+Isolation Forest
+Local Outlier Factor
+One Class SVM
+Double Median Absolute Deviation
+Mahalanobis Distance
+Anomaly Detection Blenders
+Keras Deep Autoencoder
+Keras Deep Variational Autoencoder
+Clustering models¶
+Kmeans
+HDBScan
+Other model types¶
+Eureqa (proprietary genetic algorithm for symbolic regression)
+K-Nearest Neighbors (three distances)
+Partial-least squares (used for blenders)
+Isotonic Regression (used for calibrating predictions from other models)
+Click a blueprint node to access full model documentation. Using Composable ML, you can build models that best suit your needs using built-in tasks and custom Python/R code.

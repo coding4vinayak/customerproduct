@@ -36,3 +36,31 @@ Here is a step-by-step example to handle a CSV file with row names and potential
  2 reshape csv file into prset 5k rows and 20 cloumns
 
 
+ 3user will select is it contain ordinal data than we will use rdinal script if not  selected non ordinal
+
+ 4
+ 
+
+
+Method to Handle CSV Data Loading Issues
+Read the CSV File with Error Handling:
+Use csv.reader from the csv module in Python, which is more tolerant of formatting errors compared to pd.read_csv.
+
+Inspect Each Row:
+Iterate through each row of the CSV file to detect and handle errors. This allows you to bypass problematic rows or handle them differently.
+
+Preprocess Data to Handle Errors:
+Implement custom logic to clean or preprocess the data within each row. This might include:
+
+Checking for missing values or malformed data.
+Correcting formatting errors.
+Skipping rows with errors or logging them for later review.
+Store Valid Data:
+Store the cleaned or corrected data in a suitable format (e.g., list of dictionaries or DataFrame).
+
+Handle Specific Cases:
+Implement specific handling for different types of data issues you encounter, such as handling NULL values, correcting formatting errors in strings, or converting data types.
+
+Use Try-Except Blocks:
+Wrap critical parts of your code in try-except blocks to catch exceptions and log errors. This helps in identifying and debugging issues during data preprocessing.
+

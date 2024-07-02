@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+argparse
+joblib
+xgboost
+lightgbm
+catboost
+tensorflow  # for deep learning models

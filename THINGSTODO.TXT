@@ -1,0 +1,7 @@
+1.SEPRATE PRE PROCESSING FOR REGRESSION ,CLASSIFICATION AND OTHER
+
+2.EROOR LIKE WHITESPACE IN CILUMN,
+ SEND TARGET TO LAST COLUMN
+
+3. for clustering differnat kind of cleaning is required like removing
+id , time stanm, categerial data etc.
